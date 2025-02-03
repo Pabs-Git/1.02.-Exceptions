@@ -1,6 +1,0 @@
-# Ignorar todo excepto la carpeta src
-/*
-!src/
-!src/**
-!.gitignore
-
