@@ -1,6 +1,6 @@
-package Ejercicio_1;
+package Ejercicio_1.Classes;
 
-class Product {
+public class Product {
 
     private String name;
     private double price;
@@ -11,10 +11,12 @@ class Product {
     }
 
     public String getName() {
+
         return name;
     }
 
     public double getPrice() {
+
         return price;
     }
 }

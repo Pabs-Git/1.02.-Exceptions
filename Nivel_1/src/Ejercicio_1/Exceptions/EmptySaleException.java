@@ -1,4 +1,4 @@
-package Ejercicio_1;
+package Ejercicio_1.Exceptions;
 
 public class EmptySaleException extends Exception {
 
