@@ -1,6 +1,6 @@
 📄 Description
 
-This folder contains the 8 exercises for the Level 1 of Lambdas.
+This folder contains the exercise for the Level 1 of Exceptions.
 
 💻 Technologies Used
 
@@ -23,32 +23,10 @@ Ensure that Java 8 or later is set as the SDK in your IDE.
 
 📋 EXERCISE 1
 
-A partir d’una llista de Strings, escriu un mètode que retorna una llista de totes les cadenes que contenen la lletra ‘o’. Imprimeix el resultat.
+Crea una classe anomenada "Producte" amb els atributs nom i preu, i una altra classe anomenada "Venda". Aquesta classe té com a atributs una col·lecció de productes i el preu total de la venda.
 
-📋 EXERCISE 2
+La classe "Venda", té un mètode anomenat calcularTotal() que llança l’excepció personalitzada "VendaBuidaException" i mostra per pantalla “Per fer una venda primer has d’afegir productes” si la col·lecció de productes està buida. Si la col·lecció té productes, llavors ha de recórrer la col·lecció i guardar la suma de tots els preus dels productes a l’atribut preu total de la venda.
 
-Has de fer el mateix que en el punt anterior, però ara, el mètode ha de retornar una llista amb els Strings que a més de contenir la lletra ‘o’ també tenen més de 5 lletres. Imprimeix el resultat.
+L’excepció personalitzada "VendaBuidaException" ha de ser filla de la classe Exception. Al seu constructor li hem de passar el missatge  “Per fer una venda primer has d’afegir productes” i quan capturem l’excepció, l’hem de mostrar per pantalla amb el mètode getMessage() de l’excepció.
 
-📋 EXERCISE 3
-
-Crea una llista amb els noms dels mesos de l’any. Imprimeix tots els elements de la llista amb una lambda.
-
-📋 EXERCISE 4
-
-Fer la mateixa impressió del punt anterior, però mitjançant method reference. 
-
-📋 EXERCISE 5
-
-Crea una Functional Interface amb un mètode anomenat getPiValue() que ha de retornar un double. Des del main() de la classe principal, instància la interfície i assigna-li el valor 3.1415. Invoca el mètode getPiValue() i imprimeix el resultat.
-
-📋 EXERCISE 6
-
-Crea una llista amb nombres i cadenes de text i ordena la llista amb les cadenes de més curta a més llarga.
-
-📋 EXERCISE 7
-
-Amb la llista de l’exercici anterior, ara ordena-la al revés, de cadena més llarga a més curta.
-
-📋 EXERCISE 8
-
-Crea una Functional Interface que contingui un mètode anomenat reverse(). Aquest mètode ha de rebre i ha de retornar un String. En el main() de la classe principal, injecta a la interfície creada mitjançant una lambda, el cos del mètode, de manera que torni la mateixa cadena que rep com a paràmetre però al revés. Invoca la instància de la interfície passant-li una cadena i comprova si el resultat és correcte.
+Escriu el codi necessari per a generar i capturar una excepció de tipus "IndexOutOfBoundsException".
