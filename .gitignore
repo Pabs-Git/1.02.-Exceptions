@@ -1,6 +1,8 @@
 # Ignorar todo excepto la carpeta src
 /*
-!src/
-!src/**
+!Nivel_1/
+!Nivel_1/src
 !.gitignore
+!README.txt
+
 

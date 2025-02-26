@@ -27,7 +27,7 @@ public class Sale {
 
         if (products.isEmpty()) {
 
-            throw new EmptySaleException("To make a sale you must first add products");
+            throw new EmptySaleException();
         }
 
         totalPrice = 0;
