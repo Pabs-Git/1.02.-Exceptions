@@ -1,5 +1,10 @@
 # Ignorar todo excepto la carpeta src
+
+Nivel_1/out
+Nivel_1/out/**
 /*
+
+
 !Nivel_1/
 !Nivel_1/src
 !.gitignore
